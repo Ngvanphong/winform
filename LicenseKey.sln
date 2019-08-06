@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseKey", "LicenseKey\Li
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LicenseRevitApi", "LicenseRevitApi\LicenseRevitApi.vdproj", "{476CC3DA-5E84-45D4-B1F3-368E39066B74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientKeyApi", "ClientKeyApi\ClientKeyApi.csproj", "{593B13A7-C1C1-4DB0-9283-5BD48117ED0B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LicenseClientApi", "LicenseClientApi\LicenseClientApi.vdproj", "{06FF1360-E94B-43EE-9F74-3DBC313E248F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,12 @@ Global
 		{ED4F50CC-4435-4917-9C7F-503C43EF4907}.Release|Any CPU.Build.0 = Release|Any CPU
 		{476CC3DA-5E84-45D4-B1F3-368E39066B74}.Debug|Any CPU.ActiveCfg = Debug
 		{476CC3DA-5E84-45D4-B1F3-368E39066B74}.Release|Any CPU.ActiveCfg = Release
+		{593B13A7-C1C1-4DB0-9283-5BD48117ED0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593B13A7-C1C1-4DB0-9283-5BD48117ED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593B13A7-C1C1-4DB0-9283-5BD48117ED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593B13A7-C1C1-4DB0-9283-5BD48117ED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FF1360-E94B-43EE-9F74-3DBC313E248F}.Debug|Any CPU.ActiveCfg = Debug
+		{06FF1360-E94B-43EE-9F74-3DBC313E248F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

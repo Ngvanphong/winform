@@ -1,4 +1,4 @@
-﻿namespace LicenseKey
+﻿namespace ClientKeyApi
 {
     partial class Form1
     {
@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGenerate = new System.Windows.Forms.Button();
             this.btnRegistration = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnGenerate
-            // 
-            this.btnGenerate.Location = new System.Drawing.Point(86, 46);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(75, 30);
-            this.btnGenerate.TabIndex = 0;
-            this.btnGenerate.Text = "Generate";
-            this.btnGenerate.UseVisualStyleBackColor = true;
-            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
-            // 
             // btnRegistration
             // 
-            this.btnRegistration.Location = new System.Drawing.Point(184, 46);
+            this.btnRegistration.Location = new System.Drawing.Point(128, 46);
             this.btnRegistration.Name = "btnRegistration";
             this.btnRegistration.Size = new System.Drawing.Size(75, 30);
             this.btnRegistration.TabIndex = 1;
@@ -55,7 +44,7 @@
             // 
             // btnAbout
             // 
-            this.btnAbout.Location = new System.Drawing.Point(278, 46);
+            this.btnAbout.Location = new System.Drawing.Point(236, 46);
             this.btnAbout.Name = "btnAbout";
             this.btnAbout.Size = new System.Drawing.Size(75, 30);
             this.btnAbout.TabIndex = 2;
@@ -70,7 +59,6 @@
             this.ClientSize = new System.Drawing.Size(461, 130);
             this.Controls.Add(this.btnAbout);
             this.Controls.Add(this.btnRegistration);
-            this.Controls.Add(this.btnGenerate);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -82,8 +70,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.Button btnRegistration;
         private System.Windows.Forms.Button btnAbout;
     }

@@ -1,0 +1,11 @@
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.Properties.Resources.resources
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.csproj.GenerateResource.Cache
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\bin\Debug\ClientKeyApi.exe.config
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\bin\Debug\ClientKeyApi.exe
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\bin\Debug\ClientKeyApi.pdb
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\bin\Debug\FoxLearn.License.dll
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.Form1.resources
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.frmAbout.resources
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.frmRegistration.resources
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.exe
+C:\Users\Windows 10\Documents\revit api\LicenseKey\ClientKeyApi\obj\Debug\ClientKeyApi.pdb

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LicenseKey
+namespace ClientKeyApi
 {
     public partial class Form1 : Form
     {
@@ -27,10 +27,7 @@ namespace LicenseKey
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-            using (frmGenerate frm = new frmGenerate())
-            {
-                frm.ShowDialog();
-            }
+           
         }
 
         private void btnRegistration_Click(object sender, EventArgs e)
