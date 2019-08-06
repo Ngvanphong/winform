@@ -89,8 +89,7 @@
             this.cboLicenseType.FormattingEnabled = true;
             this.cboLicenseType.Items.AddRange(new object[] {
             "Full",
-            "1 year",
-            "1 month"});
+            "Trial"});
             this.cboLicenseType.Location = new System.Drawing.Point(103, 46);
             this.cboLicenseType.Name = "cboLicenseType";
             this.cboLicenseType.Size = new System.Drawing.Size(121, 21);
@@ -119,6 +118,7 @@
             this.btnGenerate.TabIndex = 8;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // frmGenerate
             // 
@@ -139,6 +139,7 @@
             this.Name = "frmGenerate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmGenerate";
+            this.Load += new System.EventHandler(this.frmGenerate_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

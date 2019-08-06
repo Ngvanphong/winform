@@ -35,7 +35,7 @@
             this.lblProductName = new System.Windows.Forms.Label();
             this.lblProductID = new System.Windows.Forms.Label();
             this.lblProductKey = new System.Windows.Forms.Label();
-            this.lblProductType = new System.Windows.Forms.Label();
+            this.lblLicenseType = new System.Windows.Forms.Label();
             this.btnOK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -55,7 +55,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Product Type:";
+            this.label2.Text = "License Type:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
@@ -103,14 +103,14 @@
             this.lblProductKey.TabIndex = 7;
             this.lblProductKey.Text = "?";
             // 
-            // lblProductType
+            // lblLicenseType
             // 
-            this.lblProductType.AutoSize = true;
-            this.lblProductType.Location = new System.Drawing.Point(115, 113);
-            this.lblProductType.Name = "lblProductType";
-            this.lblProductType.Size = new System.Drawing.Size(13, 13);
-            this.lblProductType.TabIndex = 8;
-            this.lblProductType.Text = "?";
+            this.lblLicenseType.AutoSize = true;
+            this.lblLicenseType.Location = new System.Drawing.Point(115, 113);
+            this.lblLicenseType.Name = "lblLicenseType";
+            this.lblLicenseType.Size = new System.Drawing.Size(13, 13);
+            this.lblLicenseType.TabIndex = 8;
+            this.lblLicenseType.Text = "?";
             // 
             // btnOK
             // 
@@ -120,6 +120,7 @@
             this.btnOK.TabIndex = 9;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // frmAbout
             // 
@@ -127,7 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 190);
             this.Controls.Add(this.btnOK);
-            this.Controls.Add(this.lblProductType);
+            this.Controls.Add(this.lblLicenseType);
             this.Controls.Add(this.lblProductKey);
             this.Controls.Add(this.lblProductID);
             this.Controls.Add(this.lblProductName);
@@ -140,6 +141,7 @@
             this.Name = "frmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "frmAbout";
+            this.Load += new System.EventHandler(this.frmAbout_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,7 +156,7 @@
         private System.Windows.Forms.Label lblProductName;
         private System.Windows.Forms.Label lblProductID;
         private System.Windows.Forms.Label lblProductKey;
-        private System.Windows.Forms.Label lblProductType;
+        private System.Windows.Forms.Label lblLicenseType;
         private System.Windows.Forms.Button btnOK;
     }
 }

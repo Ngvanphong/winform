@@ -41,6 +41,7 @@
             this.btnGenerate.TabIndex = 0;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // btnRegistration
             // 
@@ -50,6 +51,7 @@
             this.btnRegistration.TabIndex = 1;
             this.btnRegistration.Text = "Registration";
             this.btnRegistration.UseVisualStyleBackColor = true;
+            this.btnRegistration.Click += new System.EventHandler(this.btnRegistration_Click);
             // 
             // btnAbout
             // 
