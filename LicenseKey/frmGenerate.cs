@@ -44,7 +44,7 @@ namespace LicenseKey
                     Header = Convert.ToByte(10),
                     Footer = Convert.ToByte(9),
                     ProductCode = (byte)ProductCode,//As order of your software
-                    Edition = Edition.ENTERPRISE,
+                    Edition = Edition.ENTERPRISE,                   
                     Version = 1
                 };
                 if (!km.GenerateKey(kv, ref productKey))//Generate full license key

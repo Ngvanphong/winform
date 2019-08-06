@@ -2,7 +2,6 @@ C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\bin\Debug\LicenseK
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\bin\Debug\LicenseKey.exe
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\bin\Debug\LicenseKey.pdb
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\bin\Debug\FoxLearn.License.dll
-C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.csprojResolveAssemblyReference.cache
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.Form1.resources
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.frmAbout.resources
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.frmGenerate.resources
