@@ -38,7 +38,7 @@ namespace ClientKeyApi
                 //Decrypt license key
                 if (km.DisassembleKey(productKey, ref kv))
                 {
-                    lblProductName.Text = "FoxLearn";
+                    lblProductName.Text = "ngvanphong2012@gmail.com";
                     lblProductKey.Text = productKey;
                     if (kv.Type == LicenseType.TRIAL)
                         lblLicenseType.Text = string.Format("{0} days", (kv.Expiration - DateTime.Now.Date).Days);

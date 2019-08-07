@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,12 @@ namespace ClientKeyApi
         const int ProductCode = 1;
         private void btnOk_Click(object sender, EventArgs e)
         {
+            String filepath = Application.StartupPath + @"\MachineID.txt";
+            FileStream fs = new FileStream(filepath, FileMode.Create);
+            StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
+            sWriter.WriteLine(txtProductID.Text);
+            sWriter.Flush();
+            fs.Close();
             KeyManager km = new KeyManager(txtProductID.Text);
             string productKey = txtProductKey.Text;
             //Check valid
@@ -36,7 +43,7 @@ namespace ClientKeyApi
                 {
                     LicenseInfo lic = new LicenseInfo();
                     lic.ProductKey = productKey;
-                    lic.FullName = "FoxLearn";
+                    lic.FullName = "PhongNguyen";
                     if (kv.Type == LicenseType.TRIAL)
                     {
                         lic.Day = kv.Expiration.Day;

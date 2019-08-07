@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,7 @@ namespace LicenseKey
         private void btnOk_Click(object sender, EventArgs e)
         {
             KeyManager km = new KeyManager(txtProductID.Text);
+           
             string productKey = txtProductKey.Text;
             //Check valid
             if (km.ValidKey(ref productKey))
@@ -36,7 +38,7 @@ namespace LicenseKey
                 {
                     LicenseInfo lic = new LicenseInfo();
                     lic.ProductKey = productKey;
-                    lic.FullName = "FoxLearn";
+                    lic.FullName = "PhongNguyen";
                     if (kv.Type == LicenseType.TRIAL)
                     {
                         lic.Day = kv.Expiration.Day;

@@ -10,3 +10,4 @@ C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseK
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.csproj.GenerateResource.Cache
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.exe
 C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.pdb
+C:\Users\Windows 10\Documents\revit api\LicenseKey\LicenseKey\obj\Debug\LicenseKey.csprojResolveAssemblyReference.cache
